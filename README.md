@@ -1,4 +1,4 @@
 # RutherinSite
-A website made for Rutherin Shaders
+A website made for Rutherin's Shaders
 
 Hosted on: https://rutherin.netlify.com/
