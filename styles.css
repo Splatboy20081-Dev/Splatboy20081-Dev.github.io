@@ -140,16 +140,18 @@ section p {
     user-select: none;
     text-decoration: none !important;
     margin: 3rem auto 3rem auto;
-    padding: 1.7rem;
-    font-size: 2rem;
-    background-color: #2d283e;
+    padding: 2rem;
+    font-size: 2.2rem;
+    background-color: #352f49;
     color: #cccccc;
     -webkit-transition: 0.2s;
     transition: 0.2s;
+    border-radius: 7rem;
 }
 
 .button:hover {
-    background-color: #cccccc;
+    
+    background-color: #ebebeb;
     color: #2d283e;
     cursor:pointer;
 }
@@ -202,6 +204,12 @@ section p {
     position: relative;
     width: 100%;
     opacity: 0.6;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+.card:hover img {
+    opacity: .84;
 }
 
 .card h3 {
@@ -215,6 +223,13 @@ section p {
     bottom: 20%;
     -webkit-transition: 0.2s ease-out;
     transition: 0.2s ease-out;
+}
+
+#discord-widget {
+    display: block;
+    width: 90%;
+    height: 280px;
+    margin: auto;
 }
 
 .link {
